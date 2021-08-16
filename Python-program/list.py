@@ -1,0 +1,11 @@
+numbers = [10,20,30,"Python",40,50,"java","C++",60,100]
+print(numbers)
+print(numbers[2:5])
+numbers.reverse()
+print(numbers)
+numbers.append("Rohit")
+print(numbers)
+numbers.insert(5,200)
+print(numbers)
+numbers.clear()
+print(numbers)
