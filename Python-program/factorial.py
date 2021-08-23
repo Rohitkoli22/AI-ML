@@ -1,5 +1,5 @@
 num = int(input("Enter number: "))
-i = 1
+i = 2
 factorial = 1
 while i<=num:
     factorial = factorial * i
