@@ -1,9 +1,6 @@
 num = int(input("Enter number: "))
 i = 1
-sum = 0
-avg = 0
-while i<=num:
-    sum = sum + i
-    i = i + 1
-avg += sum / num
+sum =  num * (num + 1)/2
+
+avg = sum / num
 print("Average=",avg)
